@@ -6,10 +6,6 @@ public class Endereco {
     private String cidade;
     private String estado;
 
-    public Endereco(String cep) {
-        this.cep = cep;
-    }
-
     public Endereco(CepEndereco meuEndereco) {
         this.cep = meuEndereco.cep();
         this.logradouro = meuEndereco.logradouro();
